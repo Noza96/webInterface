@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+main{
+    background-color: #24242c;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+}
+
+main div{
+    /* background-color: blue; */
+    margin: 0 auto;
+    margin-top: 30%;
+}
+
+li h2{
+    color: white;
+}
+
+li input{
+    border: none;
+    outline: none;
+    padding: .5em;
+    border-radius: .2em;
+    width: 90%;
+    font-size: 1em;
+    border: 1px solid #777780;
+}
+
+li{
+    text-align: center;
+    /* background-color: red; */
+    width: 100%;
+    list-style-type: none;
+    margin: 1em;
+}
+
+.nocenter {
+    text-align: left;
+    left: 20%;
+}
+
+label{
+    color: #777780
+}
+.login{
+    padding: 1em;
+    width: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: seagreen;
+
+}
+
+li a{
+    color: #bbbbbb;
+    text-decoration: none;
+}
+
+nav{
+    width: 25%;
+    background-color: #444;
+    color: white;
+    display: flex;
+}
+
+
+nav div{
+    /* background-color: blue; */
+    /* border: 2px solid black; */
+    width: 50%;
+}
+
+nav div ul li{
+    margin: 0;
+    text-align: left;
+    cursor: pointer;
+}
+
+
+nav div ul li:hover{
+    animation-name: menuOnHover;
+    animation-duration: 300ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes menuOnHover {
+    0%{
+
+    }
+    100%{
+        background-color: red;
+    }
+}
